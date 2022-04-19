@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9996702.chunk.css",
+    "main.js": "/static/js/main.6c18a694.chunk.js",
+    "main.js.map": "/static/js/main.6c18a694.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cbea5ac3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cbea5ac3.js.map",
+    "static/js/2.99005b6f.chunk.js": "/static/js/2.99005b6f.chunk.js",
+    "static/js/2.99005b6f.chunk.js.map": "/static/js/2.99005b6f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d9996702.chunk.css.map": "/static/css/main.d9996702.chunk.css.map",
+    "static/js/2.99005b6f.chunk.js.LICENSE.txt": "/static/js/2.99005b6f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/BebasNeue-Regular.9aa03f9d.ttf",
+    "static/media/like-gold.2d8aa0dc.svg": "/static/media/like-gold.2d8aa0dc.svg",
+    "static/media/like-green.3ce7d98c.svg": "/static/media/like-green.3ce7d98c.svg",
+    "static/media/link-gold.808ec27b.svg": "/static/media/link-gold.808ec27b.svg",
+    "static/media/user-gold.7604d0e6.svg": "/static/media/user-gold.7604d0e6.svg",
+    "static/media/user-grey.21f9d621.svg": "/static/media/user-grey.21f9d621.svg",
+    "static/media/was-logo-img.df3e5052.png": "/static/media/was-logo-img.df3e5052.png",
+    "static/media/was-logo-txt.c9093004.svg": "/static/media/was-logo-txt.c9093004.svg",
+    "static/media/x-red.84d29b4c.svg": "/static/media/x-red.84d29b4c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbea5ac3.js",
+    "static/js/2.99005b6f.chunk.js",
+    "static/css/main.d9996702.chunk.css",
+    "static/js/main.6c18a694.chunk.js"
+  ]
+}
