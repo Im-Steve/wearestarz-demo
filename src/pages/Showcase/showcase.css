@@ -1,0 +1,159 @@
+.showcase {
+  height: 100%;
+  width: 100%;
+}
+
+.showcase-card {
+  position: absolute;
+  top: 10px;
+  height: calc(85% - 20px);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+  border-color: var(--gold);
+  background-color: var(--dark);
+  transition-duration: 1s;
+  right: 100vw;
+}
+
+.showcase-animation-like {
+  top: -200px;
+  right: -50vw;
+}
+
+.showcase-animation-dislike {
+  top: -200px;
+  right: 250vw;
+}
+
+.showcase-card > div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+@media (orientation: portrait) {
+  .showcase-card {
+    margin: 0 10px 0 10px;
+    width: calc((100vw) - 30px);
+  }
+}
+
+@media (orientation: landscape) {
+  .showcase-card {
+    margin: 0 25vw 0 25vw;
+    width: 50vw;
+  }
+}
+
+.showcase-author {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  margin: 10px 0 10px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.showcase-author-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+@media (orientation: portrait) {
+  .showcase-visual {
+    width: 85vw;
+    height: calc(85vw * (1080 / 1920));
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media (orientation: landscape) {
+  .showcase-visual {
+    width: 45vw;
+    height: calc(45vw * (1080 / 1920));
+    margin: 0 auto 0 auto;
+  }
+}
+
+.showcase-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.showcase-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--gold);
+  text-align: left;
+  margin: 10px 25px 10px 25px;
+  font-size: 18px;
+}
+
+.showcase-description {
+  margin: 20px 25px 10px 25px;
+  white-space: pre-wrap;
+}
+
+.showcase-buttons {
+  position: absolute;
+  bottom: 0;
+  height: 15%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase-one-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100%;
+  padding: 14px;
+  cursor: pointer;
+  margin: 0 25px 0 25px;
+}
+
+.showcase-one-button > img {
+  height: 5vh;
+  width: 5vh;
+}
+
+.showcase-one-button:active > img {
+  filter: brightness(0) invert(1);
+}
+
+.showcase-like {
+  padding: 14px 12px 12px 12px;
+  border-color: #0f0;
+}
+
+.showcase-like:active {
+  background-color: #0f0;
+}
+
+.showcase-x {
+  border-color: #f00;
+}
+
+.showcase-x:active {
+  background-color: #f00;
+}
+
+.showcase-link {
+  border-color: var(--gold);
+}
+
+.showcase-link:active {
+  background-color: var(--gold);
+}

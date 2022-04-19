@@ -1,0 +1,34 @@
+.tripage {
+  position: relative;
+  width: 300vw;
+  height: calc(100% - var(--navbar-height));
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin-top: var(--navbar-height);
+  transition: 1s;
+}
+
+.tripage-page {
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+}
+
+.tripage-left {
+  left: 0;
+}
+
+.tripage-center {
+  left: -100vw;
+}
+
+.tripage-right {
+  left: -200vw;
+}
+
+@media (orientation: portrait) {
+  .tripage {
+    transition: 0.5s;
+  }
+}

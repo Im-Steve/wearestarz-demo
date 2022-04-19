@@ -1,0 +1,59 @@
+.likes {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.one-like {
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+}
+
+.like-content {
+  margin: 10px 10px 0 10px;
+  padding: 10px;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: row;
+  background-color: var(--chocolate);
+}
+
+.like-image {
+  height: 80px;
+  width: calc(80px * (1920 / 1080));
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.like-text {
+  overflow: hidden;
+}
+
+.like-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--gold);
+  text-align: left;
+}
+
+.like-author {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.like-author-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
